@@ -1,0 +1,19 @@
+
+<div>
+    <h2>Prem Project</h2>
+    <mat-form-field appearance="fill" >
+    <mat-label>Select Name</mat-label>
+    <mat-select>
+        <mat-option *ngFor="let cbgkings of cbgDetails" (click)="outputMethod(cbgkings)" >
+           {{cbgkings.name}}
+        </mat-option>
+    </mat-select>
+</mat-form-field>
+<h2 [ngStyle]="{backgroundColor:getColor()}">{{styleValue}}</h2>
+<br>
+<button mat-raised-button (click)="ngClassMethod(true,'Wellcome to cbg')">Wellcome</button> &nbsp;
+<button mat-raised-button (click)="ngClassMethod(false,'Bye to cbg')">Bye</button>
+<br>
+<br>
+<h2 [ngClass]="{'ngClassCss':ngClassVariable == true}">{{NgClassVariableValue}}</h2>
+</div>
