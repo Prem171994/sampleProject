@@ -1,0 +1,10 @@
+<p>Task For Pipe</p>
+<input type="text" [(ngModel)]="term">
+<ul id="topic-listing">
+    <li *ngFor="let user of topics.users | filter:term">
+        <div class="single-topic"> 
+            <span [ngStyle]="{background: 'yellow'}">name - {{user.name}}</span> 
+            <h3>{{user.email}}</h3>
+        </div>
+    </li>
+</ul>
