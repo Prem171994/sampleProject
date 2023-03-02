@@ -18,8 +18,8 @@ export class PipeComponent {
         "updated_at": "2018-01-05 09:17:41",
         "outlet": {
         "id": 1,
-        "name": "Sarawak Energy Berhad",
-        "address": "Kuching City",
+        "name": "vallarasu",
+        "address": "avadi",
         "contact_number": "1300-88-3111",
         "created_at": "2018-01-05 10:17:44",
         "updated_at": "2018-01-05 10:17:44"
@@ -27,7 +27,7 @@ export class PipeComponent {
         "roles": [
           {
             "id": 1,
-            "name": "Admin",
+            "name": "TeamLeader",
             "created_at": "2018-01-05 10:17:40",
             "updated_at": "2018-01-05 10:17:40",
             "pivot": {
