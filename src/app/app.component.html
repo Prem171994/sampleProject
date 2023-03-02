@@ -1,15 +1,21 @@
-<app-child-component></app-child-component>
-<app-view-child></app-view-child>
-<app-table-creation></app-table-creation>
-<app-directives></app-directives>
-
-<div>
-    <app-input-output-component></app-input-output-component>
+<div class="main-container">
+    <div class ="nav-container">
+        <ul>
+            <li><a routerLink = "viewchild">view-child</a></li>
+            <li><a routerLink = "tablecreation">table-creation</a></li>
+            <li><a routerLink = "promise">promise</a></li>
+            <li><a routerLink = "pipe">pipe</a></li>
+            <li><a routerLink = "observable">observable</a></li>
+            <li><a routerLink = "inputoutput">input-output</a></li>
+            <li><a routerLink = "directives">directives</a></li>
+            <li><a routerLink = "datapass">datapass</a></li>
+            <li><a routerLink = "child">app-child-component</a></li>
+            <li><a routerLink = "behaviour">behaviour-subject</a></li>
+        </ul>
+    </div>
+    <div class="component-container">
+        <router-outlet></router-outlet>
+    </div>
 </div>
-<app-promise></app-promise>
-<app-datapass></app-datapass>
-<app-pipe></app-pipe>
-<app-observables></app-observables>
-<app-behaviour-subject></app-behaviour-subject>
 
 
