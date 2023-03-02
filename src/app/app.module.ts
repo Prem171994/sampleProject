@@ -26,19 +26,8 @@ import { ObservablesComponent } from './observables/observables.component';
 import { BehaviourSubjectComponent } from './behaviour-subject/behaviour-subject.component';
 import { Behaviour1Component } from './behaviour1/behaviour1.component';
 import { Behaviour2Component } from './behaviour2/behaviour2.component';
-import { RouterModule, Routes } from '@angular/router';
-const appRoute:Routes = [
-  {path:'viewchild',component:ViewChildComponent},
-  {path:'tablecreation',component:TableCreationComponent},
-  {path:'promise',component:PromiseComponent},
-  {path:'pipe',component:PipeComponent},
-  {path:'observable',component:ObservablesComponent},
-  {path:'inputoutput',component:InputOutputComponentComponent},
-  {path:'directives',component:DirectivesComponent},
-  {path:'datapass',component:DatapassComponent},
-  {path:'child',component:ChildComponentComponent},
-  {path:'behaviour',component:BehaviourSubjectComponent}
-]
+
+
 
 @NgModule({
   declarations: [
