@@ -58,8 +58,8 @@ import { Behaviour2Component } from './behaviour2/behaviour2.component';
     MatRadioModule,
     MatTableModule,
     MatSelectModule,
-    MatDialogModule,
-    RouterModule.forRoot(appRoute)
+    MatDialogModule
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
