@@ -14,8 +14,4 @@ export class Behaviour2Component implements OnInit{
   ngOnInit(): void {
     this.service.castUser.subscribe(user => this.user = user);
   }
-  newUsers(user: any){
-    this.service.editUser(this.newUser);
-  }
-
 }
