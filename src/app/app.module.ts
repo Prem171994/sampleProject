@@ -43,7 +43,6 @@ import { Behaviour2Component } from './behaviour2/behaviour2.component';
     DirectivesComponent,
     DatapassComponent,
     PopupComponentComponent,
-    FilterPipeService,
     ObservablesComponent,
     BehaviourSubjectComponent,
     Behaviour1Component,
@@ -61,7 +60,7 @@ import { Behaviour2Component } from './behaviour2/behaviour2.component';
     MatDialogModule
    
   ],
-  providers: [],
+  providers: [FilterPipeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
